@@ -21,4 +21,8 @@ public class TestGroceryCounter {
     assertEquals(true, true);
   }
 
+  @Test
+  void checkDefaultValue() {
+    assertEquals("$0.00", counter.total());
+  }
 }
